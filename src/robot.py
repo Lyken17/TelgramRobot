@@ -1,12 +1,13 @@
 import requests
 
 class Robot():
-    token = "110949338:AAHIcJhOAg2okKjuTTcy0VCwZEoqjeoqTUs"
-    base_url = "https://api.telegram.org/bot" + token
+
 
     # Lyken = 18010983
     # Frantic = 66583516
     # RotTryGroup = -90936966
+    def __init__(self, token = " "):
+        self.token =  "110949338:AAHIcJhOAg2okKjuTTcy0VCwZEoqjeoqTUs"
 
     def getMe(self):
         url = self.base_url + "/getMe"
@@ -21,7 +22,7 @@ class Robot():
         ).json()
         print(res)
 
-    def sendMessage(self,chat_id = 18010983,text=''):
+    def sendMessage(self, chat_id = 18010983, text=''):
         if len(text) == 0:
             print("input error")
             exit(-1)
@@ -34,5 +35,5 @@ class Robot():
         print(res)
 
     def test(self):
-        # self.sendMessage(text='hi')
-        self.getUpdates()
+        self.sendMessage(chat_id = -90936966, text = 'hi')
+        # self.getUpdates()
