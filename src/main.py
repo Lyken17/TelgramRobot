@@ -2,7 +2,7 @@ from robot import *
 import file
 import json
 
-
-
-# bot = Robot()
-# bot.test()
+fp = "config/robot.json"
+config = file.loadConfig(fp)
+bot = Robot(config["taken"])
+bot.test()

@@ -2,6 +2,13 @@
 __pycache__/
 *.py[cod]
 
+# Pycharm File
+.idea/
+
+# Personal Information
+config/
+robot.json
+
 # C extensions
 *.so
 
