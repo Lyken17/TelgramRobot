@@ -2,17 +2,20 @@ import requests
 
 class Robot():
 
-    lastMessageID = 0
+    last_update_id = 0
+    token = 0
 
     # Lyken = 18010983
     # Frantic = 66583516
     # RotTryGroup = -90936966
     def __init__(self, config):
-        t
-        if len(token) < 10:
+
+        if len(config["token"]) < 10:
             print("token error")
             exit(-1)
-        self.token = token
+
+        self.token = config["token"]
+        self.last_update_id = config["last_update_id"]
 
     def makeRequests(self, method, data={}):
         return requests.post(
@@ -25,23 +28,45 @@ class Robot():
         r = requests.get(url)
         print(r.text)
 
-    def getUpdates(self, offset=0 ):
+    def getUpdates(self, offset = 0):
         method = "getUpdates"
-        res = requests.post(
-            url = 'https://api.telegram.org/bot{0}/{1}'.format(self.token, method),
-            data = {'offset':519396914}
-        ).json()
-        print(res)
+        data = {'offset': offset}
 
-    def receiveMessage(self):
+        return self.makeRequests(method = method, data = data)
 
+
+    def receiveMessage(self, offset):
+        res = self.getUpdates(offset=self.last_update_id)
         pass
 
     def receiveNewMessage(self):
+        res = self.getUpdates(offset=self.last_update_id)
+
+        content = {}
+        if not res['ok']:
+            content['ok'] = False
+            return content
+
+        content['ok'] = True
+        for each in res['result']:
+            print (each)
+            
+            message = each['message']
+            chat_id = message['chat']['id']
+            person = message['from']['username']
+            text = message['text']
+            
+            send_text = "Repeat : [ " + text + " ] from " + person
+            self.sendMessage(chat_id=chat_id, text=send_text)
+
+            self.last_update_id = each['update_id'] + 1
 
         pass
 
+
+
     def sendMessage(self, chat_id = -90936966, text=''):
+
         if len(text) == 0:
             print("input error")
             exit(-1)
@@ -49,9 +74,7 @@ class Robot():
         method = "sendMessage"
         data = {'chat_id' : chat_id, 'text' : text}
 
-        res = self.makeRequests(method=method, data=data)
-        print (res)
-        return res
+        return self.makeRequests(method = method, data = data)
 
     def test(self):
         self.sendMessage(chat_id = -90936966, text = 'hi')
