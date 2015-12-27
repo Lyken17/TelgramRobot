@@ -14,7 +14,8 @@ def updateConfig(file, config):
 
 def initConfig(file):
     content = {}
-    content["taken"] = "110949338:AAHIcJhOAg2okKjuTTcy0VCwZEoqjeoqTUs"
+    content["token"] = "110949338:AAHIcJhOAg2okKjuTTcy0VCwZEoqjeoqTUs"
+    content["last_update_id"] = 519396914
     updateConfig(file, config=content)
 
 

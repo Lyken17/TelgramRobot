@@ -3,6 +3,10 @@ import file
 import json
 
 fp = "config/robot.json"
-config = file.loadConfig(fp)
-bot = Robot(config["taken"])
-bot.test()
+file.initConfig(fp)
+# config = file.loadConfig(fp)
+
+# bot = Robot(config)
+
+# bot.sendMessage(text="Test, now is 17:55")
+# res = bot.getUpdates()
