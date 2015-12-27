@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa538103-19b5-4bf1-bea0-39558840ea26" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TelegramRobot.iml" afterPath="$PROJECT_DIR$/.idea/TelegramRobot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/robot.json" afterPath="$PROJECT_DIR$/config/robot.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/robot.py" afterPath="$PROJECT_DIR$/src/robot.py" />
     </list>
     <ignored path="TelegramRobot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +32,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15211268">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5380435">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -65,9 +64,13 @@
       <file leaf-file-name="robot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/robot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.269231">
-              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-              <folding />
+            <state vertical-scroll-proportion="-12.461538">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding>
+                <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+                <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+                <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +95,8 @@
         <option value="$PROJECT_DIR$/file.py" />
         <option value="$PROJECT_DIR$/src/file.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
-        <option value="$PROJECT_DIR$/src/robot.py" />
         <option value="$PROJECT_DIR$/config/robot.json" />
+        <option value="$PROJECT_DIR$/src/robot.py" />
       </list>
     </option>
   </component>
@@ -186,7 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -443,7 +446,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451206621945</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Now, this rob can repeat what you said.">
+      <created>1451252347027</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1451252347027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -484,7 +493,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Split functions into different files and add some gitignore rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split functions into different files and add some gitignore rules" />
+    <MESSAGE value="Now, this rob can repeat what you said." />
+    <option name="LAST_COMMIT_MESSAGE" value="Now, this rob can repeat what you said." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -531,7 +541,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -549,7 +563,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,7 +585,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding />
+          <folding>
+            <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -585,7 +607,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -610,7 +636,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -628,7 +658,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,7 +680,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -664,7 +702,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -683,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/robot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.269231">
-          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/robot.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0">
@@ -699,10 +733,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.461538">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1451252983878" expanded="true" signature="180:366" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="719:847" placeholder="..." />
+            <marker date="1451252983878" expanded="true" signature="992:1641" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15211268">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5380435">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
