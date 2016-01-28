@@ -1,3 +1,5 @@
+import sys
+sys.path.append('./src')
 from src.robot import *
 import src.file as file
 from src.decorator import *
@@ -7,8 +9,8 @@ from datetime import datetime
 
 import time
 
+
 @protect
-@logger
 def test(a=1):
     print('test is running')
     pass

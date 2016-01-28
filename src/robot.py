@@ -9,7 +9,6 @@ class Robot():
     # Frantic = 66583516
     # RotTryGroup = -90936966
     def __init__(self, config):
-
         if len(config["token"]) < 10:
             print("token error")
             exit(-1)
@@ -31,7 +30,6 @@ class Robot():
     def getUpdates(self, offset = 0):
         method = "getUpdates"
         data = {'offset': offset}
-
         return self.makeRequests(method = method, data = data)
 
 
