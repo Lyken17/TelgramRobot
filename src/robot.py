@@ -74,6 +74,8 @@ class Robot():
 
         return self.makeRequests(method = method, data = data)
 
+    def autorun(self):
+        pass
+
     def test(self):
         self.sendMessage(chat_id = -90936966, text = 'hi')
-        # self.getUpdates()
