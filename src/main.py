@@ -1,18 +1,19 @@
 import sys
-sys.path.append('./src')
+import time
 from src.robot import *
 import src.file as file
-from src.decorator import *
+from src.myDecorator import *
 
-import json
-from datetime import datetime
 
-import time
 
+def __init__():
+
+    pass
 
 @protect
 def test(a=1):
     print('test is running')
+    time.sleep(10)
     pass
 
 def main():
@@ -35,5 +36,5 @@ def main():
 
 
 if __name__ == '__main__':
-    test(1)
-    # main()
+    # test(1)
+    main()

@@ -42,12 +42,12 @@ class Robot():
 
         content = {}
         if not res['ok']:
-            content['ok'] = False
-            return content
+
+            return res
 
         content['ok'] = True
+        print(res)
         for each in res['result']:
-            print (each)
             
             message = each['message']
             chat_id = message['chat']['id']
