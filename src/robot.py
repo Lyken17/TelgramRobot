@@ -64,7 +64,6 @@ class Robot():
 
 
     def sendMessage(self, chat_id = -90936966, text=''):
-
         if len(text) == 0:
             print("input error")
             exit(-1)

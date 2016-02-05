@@ -15,7 +15,6 @@ class logger(object):
         print("Exited func : %s(%s %s) at %s" % (self.f.__name__, args, kwargs, getTime()))
         return res
 
-
 class protect(object):
     def __init__(self, f):
         self.f = f
@@ -37,9 +36,7 @@ class protect(object):
             exit(-1)
         except IOError:
             sysLog(event="IO error occurred")
-
         except:
             pass
-
         # print("protect for \"%s\" end" % self.f.__name__)
         return res
